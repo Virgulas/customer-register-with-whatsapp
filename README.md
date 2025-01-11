@@ -25,7 +25,7 @@ This app was created by request of a local business. It combines **React**, **El
 - Each tab includes a message input box to send messages to multiple customers at once via WhatsApp.
 
 ### Demo
-<iframe width="560" height="315" src="https://www.youtube.com/embed//LMiCRc8WdLc" frameborder="0" allowfullscreen></iframe>
+[![Watch the video](https://img.youtube.com/vi/LMiCRc8WdLc/0.jpg)](https://www.youtube.com/watch?v=LMiCRc8WdLc)
 
 ---
 
