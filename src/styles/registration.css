@@ -1,0 +1,46 @@
+.registration-page {
+    background-color: #2c2c2c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #e0e0e0;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+.registration-page h2 {
+text-align: center;
+color: #ffffff;
+}
+
+.registration-page .form-label, .registration-page .form-control {
+color: #e0e0e0;
+}
+
+.registration-page .form-control {
+background-color: #3a3a3a;
+border: 1px solid #444;
+}
+
+.registration-page .form-control::placeholder {
+color: #c0c0c0;
+}
+
+.registration-page .btn-primary {
+background-color: #555;
+margin-top: 20px;
+border: none;
+}
+
+.registration-page .btn-primary:hover {
+background-color: #444;
+}
+
+.registration-page .alert {
+color: #ffffff;
+background-color: #444;
+border: 1px solid #555;
+}
+  

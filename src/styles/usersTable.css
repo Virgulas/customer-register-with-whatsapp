@@ -1,0 +1,44 @@
+.users-table {
+    width: 100%;
+    
+}
+
+.user-table {
+    border: 1px rgb(165, 165, 165) solid;
+    
+}
+
+/* Dark theme styles */
+.dark-theme {
+    background-color: #2c2c2c;
+    color: #e0e0e0;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .table-dark th, .table-dark td {
+    color: #e0e0e0;
+  }
+  
+  .dark-input {
+    background-color: #3a3a3a;
+    color: #e0e0e0;
+    border: 1px solid #444;
+    margin-bottom: 15px;
+  }
+  
+  .dark-input::placeholder {
+    color: #c0c0c0;
+  }
+  
+  .dark-pagination .page-item .page-link {
+    background-color: #3a3a3a;
+    color: #e0e0e0;
+    border-color: #444;
+  }
+  
+  .dark-pagination .page-item.active .page-link {
+    background-color: #555;
+    border-color: #444;
+  }
+  

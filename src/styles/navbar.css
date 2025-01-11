@@ -1,0 +1,34 @@
+.navbar {
+    width: 100%;
+}
+
+.btn-group-custom {
+    display: flex !important;
+    width: 100%;
+    gap: 10px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.btn-custom {
+    border-radius: 5px !important;
+    max-width: 150px;
+}
+
+.page-start {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    gap: 50px;
+}
+
+.page-users {
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    flex-direction: row;
+}

@@ -1,0 +1,21 @@
+{
+    "register": "!cadastro",
+    "restart": "!reiniciar",
+    "authorizedNumber": "554899479679@c.us",
+    "registerSteps": { 
+        "REGISTER_PROMPT": "register_prompt", 
+        "ASK_FULL_NAME": "ask_full_name",
+        "CONFIRM_FULL_NAME": "confirm_full_name",
+        "ASK_BIRTH_DATE": "ask_birth_date",
+        "ASK_USER_PERIOD": "ask_use_period",
+        "REGISTRATION_COMPLETE": "registration_complete"
+    },
+    "registerMessages": {
+        "REGISTER_PROMPT": "Você gostaria de se inscrever no nosso sistema de filiados e receber nossas promoções? \n\n Responda com *Sim* ou *Não*",
+        "ASK_FULL_NAME": "Estamos felizes por ter você conosco! Por favor, digite seu *nome* e *sobrenome*",
+        "CONFIRM_FULL_NAME": "Você confirma que seu nome é _? Responda com *Sim* ou *Não*",
+        "ASK_BIRTH_DATE": "Ok! Estamos quase lá! Qual é o dia do seu aniversário? Responda no formato *dia/mês* ( exemplo: *15/03* )",
+        "ASK_USER_PERIOD": "Última perguntinha! De quanto em quanto tempo você corta o cabelo? Por favor, responda em *dias* (exemplo: *15 dias*)",
+        "REGISTRATION_COMPLETE": "Parabéns! O seu registro está completo. Agora você poderá receber nossas promoções e fazer parte de nossos eventos!"
+    }
+}
