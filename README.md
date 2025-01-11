@@ -104,8 +104,6 @@ This project is licensed under [Avila].
 ## Acknowledgments
 - **whatsapp-web.js** for WhatsApp integration.
 - **SQLite** for database management.
-- The open-source community for inspiration and support.
-
 
 
 
