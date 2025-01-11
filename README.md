@@ -1,70 +1,111 @@
-# Getting Started with Create React App
+# Customer Register App with WhatsApp Integration
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This app was created by request of a local business. It combines **React**, **Electron**, **SQLite**, and the **whatsapp-web.js** package to create a seamless user experience.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+### 1. Customer Registration
+- **Manual Registration**: Easily register customers using the provided form.
+- **Automatic Registration**: Use a WhatsApp bot to register customers via commands.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 2. Customer Data Management
+- View and manage customer data in a table format, stored securely in an **SQLite** database.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 3. Birthdays
+- A dedicated tab to view customers with birthdays.
+- Send personalized messages to customers on their birthdays through WhatsApp.
 
-### `npm test`
+### 4. Service Usage Period
+- A tab to manage customers based on their service usage period.
+- Send customized messages to customers within the given period.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 5. Messaging
+- Each tab includes a message input box to send messages to multiple customers at once via WhatsApp.
 
-### `npm run build`
+### Demo
+<iframe width="560" height="315" src="https://www.youtube.com/embed//LMiCRc8WdLc" frameborder="0" allowfullscreen></iframe>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Technology Stack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Frontend**: React
+- **Desktop Environment**: Electron
+- **Database**: SQLite
+- **WhatsApp Integration**: whatsapp-web.js
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Installation and Setup
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone the repository:
+   ```bash
+   git clone <repository_url>
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Navigate to the project directory:
+   ```bash
+   cd <app_folder>
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-## Learn More
+4. Start the app:
+   ```bash
+   npm run dev
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Usage
 
-### Code Splitting
+### Initial Setup
+- Launch the app.
+- Scan the QR code with your WhatsApp to connect.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Registering Customers
+- **Manually**: Go to the "Cadastro" tab and fill out the registration form.
+- **Automatically**: Use the WhatsApp bot by sending a predefined command.
 
-### Analyzing the Bundle Size
+### Managing Birthdays
+- Access the "Aniversariantes" tab to view customers with birthdays and send them messages.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Managing Service Usage
+- Go to the "Chamar Hoje" tab to contact customers within their service period.
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Screenshots
+- **Home Screen**: Displays the QR code for WhatsApp connection.
+- **Customer Management**: Table view of customer data.
+- **Messaging Tabs**: Separate tabs for birthdays and service usage.
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Contributing
+Contributions are welcome! Please follow these steps:
 
-### Deployment
+1. Fork the repository.
+2. Create a new branch for your feature/bugfix.
+3. Submit a pull request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## License
+This project is licensed under [Avila].
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## Acknowledgments
+- **whatsapp-web.js** for WhatsApp integration.
+- **SQLite** for database management.
+- The open-source community for inspiration and support.
+
+
+
+
