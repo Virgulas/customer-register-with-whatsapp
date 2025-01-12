@@ -80,7 +80,7 @@ This app was created by request of a local business. It combines **React**, **El
 
 ---
 
-## Screenshots
+## Screens
 - **Home Screen**: Displays the QR code for WhatsApp connection.
 - **Customer Management**: Table view of customer data.
 - **Messaging Tabs**: Separate tabs for birthdays and service usage.
